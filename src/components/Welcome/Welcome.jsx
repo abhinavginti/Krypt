@@ -5,7 +5,7 @@ const Welcome = () => {
     return <>
         <div className="flex w-full justify-center items-center">
             <div className="flex md:flex-row flex-col items-start md:p-20 py-12 px-4">
-                <div className="flex justify-start flex-col md:mr-[10px] flex-1">
+                <div className="flex justify-start flex-col md:mr-10 flex-1">
                     <h1 className="text-3xl sm:text-5xl mb-4">
                         Send Crypto <br /> across the World
                     </h1>
