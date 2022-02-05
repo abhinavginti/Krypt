@@ -27,7 +27,7 @@ const TransferForm = () => {
         <Input placeholder='Amount (ETH)' name='amount' handleChange={handleChange} type='number' />
         <Input placeholder='Keyword (Gif)' name='keyword' handleChange={handleChange} type='text' />
         <Input placeholder='Message' name='message' handleChange={handleChange} type='text' />
-        <button onClick={handleSubmit} className="text-semibold border-2 border-white rounded-full w-full py-2 hover:text-black hover:bg-white">{loading ? <Loader /> : 'Send Now'}</button>
+        <button onClick={handleSubmit} className="font-semibold border-2 border-white rounded-full w-full py-2 hover:text-black hover:bg-white">{loading ? <Loader /> : 'Send Now'}</button>
     </div>;
 };
 

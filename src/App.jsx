@@ -1,6 +1,7 @@
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar/Navbar'
 import Welcome from './components/Welcome/Welcome'
+import Transactions from './components/Transactions/Transactions'
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path='/' element={<Welcome />} />
+        <Route path='/transactions' element={<Transactions />} />
       </Routes>
     </section>
   )
